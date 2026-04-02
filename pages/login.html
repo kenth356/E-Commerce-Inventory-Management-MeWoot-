@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>MeWoot | Login</title>
+        <link href="/styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    </head>
+    <body>
+        <div class="bg-design">
+            <div class="blob-1"></div>
+            <div class="blob-2"></div>
+            <div class="streak"></div>
+            <div class="streak-thin"></div>
+        </div>
+        <div class="login-center-page">
+            <div class="login-wrapper">
+                <div class="login-mockup-branding">
+                    <div class="login-mockup-logo">
+                        <span>📦</span>
+                    </div>
+                    <h1 class="login-heading">MeWoot</h1>
+                    <p class="login-description">Welcome!</p>
+                </div>
+                <div class="login-form">
+                    <div class="alert" id="alert"></div>
+                    <form id="log-ins" novalidate>
+                        <div class="field-email">
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" placeholder="name@company.com" required>
+                        </div>
+                        <div class="field-password">
+                            <div class="password-with-forgot">
+                                <label for="password">Password</label>
+                                <a href="#" class="forgot-link">Forgot password?</a>
+                            </div>
+                            <input id="password" type="password" placeholder="*********" required>
+                        </div>
+                        <button class="login-btn" type="submit">Login to MeWoot</button>
+                    </form>
+                    <div class="new-user">
+                        New to Mewoot? <a href="register.html">Register to become one!</a>
+                    </div>
+                </div>
+                <div class="login-footer-links">
+                    <a href="#">Help</a>
+                    <a href="#">Status</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy</a>
+                </div>
+            </div>
+        </div>
+        <footer class="login-footer">
+            <div class="login-footer-inner">
+                <div class="footer-brand">MeWoot</div>
+                <div class="footer-copy">© 2024 MeWoot. All rights reserved.</div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Security</a>
+                    <a href="#">System Status</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="/script/login.js"></script>
+</html>
